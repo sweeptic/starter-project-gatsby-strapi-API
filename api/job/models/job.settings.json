@@ -22,6 +22,12 @@
     "date": {
       "type": "string",
       "required": true
+    },
+    "desc": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description.job-description",
+      "required": true
     }
   }
 }
